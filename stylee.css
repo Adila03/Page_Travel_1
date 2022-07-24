@@ -1,0 +1,150 @@
+@charset "UTF-8";
+* {
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  padding: 10px 10%;
+}
+
+.head {
+  height: 80px;
+}
+
+.head h3 {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#e42908, #d8db19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 767px) {
+  .head h3 {
+    font-size: 25px;
+    padding-right: 35px;
+  }
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+}
+
+@media (max-width: 767px) {
+  nav .menu {
+    -webkit-column-gap: 27px;
+            column-gap: 27px;
+    font-size: 30px;
+    padding-left: 30px;
+  }
+}
+
+nav .menu-item {
+  color: black;
+  font-weight: bold;
+}
+
+nav .menu-item:hover {
+  color: orangered;
+}
+
+.main .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  .main .top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.main .travel {
+  width: 900px;
+  padding: 0 50px;
+}
+
+.main .travel-1 {
+  width: 700px;
+  padding: 0 50px;
+}
+
+@media (max-width: 767px) {
+  .main .travel-1 {
+    padding: 0;
+  }
+}
+
+.main .travel-img-1 {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 522px;
+}
+
+.main .travel-img-2 {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 522px;
+}
+
+.main .travel-tittle {
+  letter-spacing: 1.5px;
+  color: #0e0d0d;
+  font-size: 40px;
+}
+
+.main .content::after {
+  color: orangered;
+  content: "→";
+  font-size: 20px;
+}
+
+.main .content {
+  color: orangered;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .main .content {
+    font-size: 30px;
+  }
+}
+
+.main .travel-info {
+  color: #626262;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 767px) {
+  .main .travel-info {
+    font-size: 30px;
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=stylee.css.map */
